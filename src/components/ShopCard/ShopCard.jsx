@@ -1,6 +1,5 @@
 export const ShopCard = (props) => {
   const { info } = props;
-  console.log('info', info);
 
   return (
     <div className="card">

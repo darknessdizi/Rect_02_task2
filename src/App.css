@@ -3,10 +3,11 @@
 .material-icons {
   color: #5F6368;
   cursor: pointer;
+  font-size: 3em;
 }
 
 .content {
-  width: 80%;
+  width: 70%;
   margin: 10px auto;
 }
 
@@ -72,4 +73,39 @@
   justify-content:space-around;
   color: red;
   align-items: center;
+}
+
+.item {
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.block_img {
+  overflow: hidden;
+}
+
+.item_img {
+  width: 100px;
+  height: 100%;
+  margin-top: -20px;
+}
+
+.item_title {
+  text-transform: uppercase;
+}
+
+.item_color {
+  text-transform: lowercase;
+}
+
+.item_button {
+  margin-right: 30px;
+}
+
+.item_price {
+  color: red;
 }
