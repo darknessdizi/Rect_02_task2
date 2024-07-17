@@ -1,6 +1,10 @@
 Расположение товаров
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/cm1uk82w5n7i5u52?svg=true)](https://ci.appveyor.com/project/darknessdizi/rect-02-task2)
+
+*Ссылка на страницу:* https://darknessdizi.github.io/Rect_02_task2/
+
 Вам необоходимо сделать приложение для отображения товаров в интернет-магазине. Заказчик хочет, чтобы пользователь мог увидеть товары в виде карточек или в виде списка, в зависимости от того, какое расположение он выберет. 
 
 ![cards view](./assets/card_view.png)
