@@ -9,13 +9,7 @@ export const Store = () => {
   let resultView = [];
 
   const clickMenu = () => {
-    if (state === 'view_list') {
-      setState('view_module');
-      resultView.push(<CardsView cards={products} />);
-    } else {
-      setState('view_list');
-      resultView.push(<ListView items={products} />);
-    }
+    (state === 'view_list') ? setState('view_module') : setState('view_list');
   }
 
   if (state === 'view_list') {
